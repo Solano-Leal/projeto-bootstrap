@@ -1,0 +1,72 @@
+html{
+    background-color: rgb(235, 235, 235);
+}
+
+.logo {
+    width: 80px;
+}
+
+.img-carousel {
+    height: 500px;
+    object-fit: cover;
+    object-position: 0 40%;
+} 
+
+.card-largura {
+    width: 18rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-produto {
+    height: 300px;
+    object-fit: cover;
+}
+
+.form-label {
+    margin-bottom: unset;
+    margin-top: .5rem;
+}
+
+.invalid-feedback {
+    margin-bottom: .2rem;
+}
+
+.btn-enviar {
+    margin-top: 15px;
+    background-color: rgb(126, 121, 121);
+    color: #fff;
+}
+
+.btn-enviar:hover {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: rgb(171, 171, 171);
+}
+
+#produto-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border:1px solid #000;
+    margin-top: 10rem;
+}
+
+.produto-img {
+    height: 300px;
+    justify-content: center;
+}
+
+.media{
+
+}
+
+.media-body{
+    margin: 2rem;
+}
+
